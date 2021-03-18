@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_check"
+        android:icon="@drawable/ic_checked"
+        android:title="check"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/app_bar_mic"
+        android:icon="@drawable/ic_microphone"
+        android:title="mic"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/app_bar_camera"
+        android:icon="@drawable/ic_photo_camera"
+        android:title="camera"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/app_bar_paint"
+        android:icon="@drawable/ic_paintbrush"
+        android:title="paint"
+        app:showAsAction="always"/>
+    <item
+        android:icon="@drawable/ic_paintbrush"
+        android:title="paint"
+        app:showAsAction="always"/>
+
+</menu>
