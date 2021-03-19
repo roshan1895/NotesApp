@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/notes_pin"
+        android:icon="@drawable/ic_outline_push_pin_24"
+        android:title="pin"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/notes_notify"
+        android:icon="@drawable/ic_outline_notification_add_24"
+        android:title="notify"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/notes_check"
+        android:icon="@drawable/ic_baseline_check_24"
+        android:title="save"
+        app:showAsAction="always"/>
+
+</menu>

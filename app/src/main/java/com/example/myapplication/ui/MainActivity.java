@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
@@ -6,12 +6,10 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.view.Menu;
-import  android.view.MenuItem;
-import android.view.MenuInflater;
 import android.view.View;
 import android.widget.RelativeLayout;
 
+import com.example.myapplication.R;
 import com.google.android.material.bottomappbar.BottomAppBar;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -31,11 +29,18 @@ public class MainActivity extends AppCompatActivity {
         searchRel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(MainActivity.this,Activity_Search.class);
+                Intent intent=new Intent(MainActivity.this, Activity_Search.class);
                 startActivity(intent);
             }
         });
         fab.setColorFilter(Color.WHITE);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, AddNoteActivity.class);
+                startActivity(intent);
+            }
+        });
 //        inflateBottomAppBar();
     }
 

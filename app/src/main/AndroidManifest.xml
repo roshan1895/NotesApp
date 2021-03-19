@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".Activity_Search"
+        <activity android:name=".ui.AddNoteActivity"
             android:theme="@style/Theme.MyApplication.NoActionBar"/>
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.Activity_Search"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity
+            android:name=".ui.MainActivity"
             android:theme="@style/Theme.MyApplication.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
