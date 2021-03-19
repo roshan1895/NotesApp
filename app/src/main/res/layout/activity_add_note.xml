@@ -88,6 +88,7 @@
             android:text="Fri,19 march 2021 2:40 PM"/>
     </FrameLayout>
 <ImageButton
+    android:id="@+id/more_option"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_alignParentEnd="true"
